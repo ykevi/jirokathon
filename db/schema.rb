@@ -33,8 +33,7 @@ ActiveRecord::Schema.define(version: 20180609055910) do
   end
 
   create_table "user_donations", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "client_id"
+    t.string   "angel_name"
     t.integer  "subscription_price"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
