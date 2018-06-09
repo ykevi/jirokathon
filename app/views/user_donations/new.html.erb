@@ -44,20 +44,11 @@
 					<p>寄付お願い！</p>
 				</header>
 				<div class="container">
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
-					<p>フォーム</p>
+          <%= form_for @user_donation do |f| %>
+            <%= f.text_field :angel_name %>
+            <%= f.number_field :subscription_price %>
+            <%= f.submit %>
+          <% end %>
 				</div>
 			</section>
 

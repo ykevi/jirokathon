@@ -31,9 +31,7 @@
 					<h2>エンジェル二郎</h2>
 					<p>あなたの罪悪感解消します</p>
 					<ul class="actions">
-						<a href="donation.html">
-							<img src="/assets/heart.png" alt="寄付する">
-						</a>
+							<%= link_to  image_tag('/assets/heart.png'), :controller => "user_donations", :action => "new" %>
 					</ul>
 				</div>
 			</section>
