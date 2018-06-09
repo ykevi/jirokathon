@@ -1022,11 +1022,14 @@
     		left: 0px;
     		margin: auto;
     		width: 320px;
-    		height: 170px;
+    		height: 320px;
 		}
 
 			#banner .inner :last-child {
 				margin-bottom: 0;
+			}
+			#banner .inner img {
+				width: 150px;
 			}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
